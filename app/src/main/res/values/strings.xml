@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">VisionAssist</string>
+    <string name="tagline">Voice-first visual assistance</string>
+    <string name="btn_voice_assistant">Voice Assistant</string>
+    <string name="btn_describe_surroundings">Describe My Surroundings</string>
+    <string name="btn_read_text">Read Text Aloud</string>
+    <string name="btn_upload_image">Select Image from Gallery</string>
+    <string name="btn_repeat">Repeat Last Speech</string>
+    <string name="btn_stop_speaking">Stop Speaking</string>
+    <string name="btn_settings">Settings</string>
+    <string name="btn_help">Help &amp; Voice Commands</string>
+    <string name="status_ready">Ready. Say "Hey VisionAssist" or tap Voice Assistant.</string>
+    <string name="status_listening">Listening for voice command…</string>
+    <string name="status_capturing">Capturing image. Hold the device steady…</string>
+    <string name="status_analyzing">Analyzing visual information…</string>
+    <string name="status_speaking">Speaking result…</string>
+    <string name="safety_disclaimer">VisionAssist is an assistive tool, not a replacement for a cane, guide dog, orientation training, or human assistance. AI descriptions can be inaccurate. Do not rely on VisionAssist for navigation, obstacle avoidance, or judging distances.</string>
+</resources>

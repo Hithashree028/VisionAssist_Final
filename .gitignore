@@ -1,0 +1,30 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Android generated files
+.gradle/
+.idea/
+**/build/
+local.properties
+
+# Large archives and installation files
+*.zip
+*.apk
+*.aab
+
+# Private signing files
+*.jks
+*.keystore

@@ -1,0 +1,21 @@
+VISIONASSIST CONFIG + SOURCE REPLACEMENT
+
+This package replaces these files in your existing Android Studio project:
+- app/src/main/java/com/hitha/visionassist/MainActivity.kt
+- app/src/main/AndroidManifest.xml
+- app/src/main/res/xml/visionassist_file_paths.xml
+- app/build.gradle.kts
+- build.gradle.kts
+- settings.gradle.kts
+- gradle.properties
+- gradle/libs.versions.toml
+- gradle/wrapper/gradle-wrapper.properties
+
+IMPORTANT:
+1. Back up your existing project first.
+2. Merge/replace these files at the project root, preserving the folder paths.
+3. KEEP app/src/main/assets/model/ exactly as it is; this ZIP does not contain the large Vosk model.
+4. KEEP local.properties and its sdk.dir entry. Add GEMINI_API_KEY=YOUR_REAL_KEY on a separate line in local.properties. Never publish that key.
+5. Android Studio must have Android SDK Platform 35 installed. If prompted, install it.
+6. This is a source/configuration replacement, not a verified APK. I cannot promise it compiles until Gradle builds it in your environment.
+7. This does not implement a guaranteed always-on wake word after swiping the app away or force-stopping it. Android background microphone/camera restrictions still apply.
