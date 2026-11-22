@@ -173,3 +173,14 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 1. **Monocular 2D Depth Limitations**: Monocular phone cameras cannot determine physical distances in feet or meters. VisionAssist classifies relative horizontal positions (Left, Center, Right) and relative bounding box size (Foreground vs. Background), without claiming collision prevention.
 2. **Android 14+ Background Camera Privacy**: Android OS strictly disallows camera access without an active foreground window. VisionAssist maintains `FLAG_KEEP_SCREEN_ON` during active visual assistance to ensure reliable automatic image capture.
 3. **Network Latency**: While on-device ML Kit detection operates in under 150ms, cloud Gemini visual analysis requires an active Internet connection (Wi-Fi / 4G / 5G) with typical response latency of 1.5–2.5 seconds.
+## 🎥 Project Demo
+
+Watch the VisionAssist demonstration video:
+
+[▶ Watch the VisionAssist Demo](https://drive.google.com/file/d/1ewbIm6FovRHxUsqEKIgmconAmHHM0hWz/view?usp=sharing)
+
+## 💻 Source Code
+
+The complete VisionAssist Android project source code is available in this repository.
+
+[View Source Code](https://github.com/Hithashree028/VisionAssist_Final)
